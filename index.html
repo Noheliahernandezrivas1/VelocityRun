@@ -1,0 +1,1520 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velocity Run</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <header class="p-3 text-bg-dark">
+    <div class="container">
+      <div
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+        >
+          <svg
+            class="bi me-2"
+            width="40"
+            height="32"
+            role="img"
+            aria-label="Bootstrap"
+          >
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <ul
+          class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+        >
+          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+          <li>
+            <a href="#catalogo1" class="nav-link px-2 text-white">Running</a>
+          </li>
+          <li>
+            <a href="#catalogo2" class="nav-link px-2 text-white"
+              >Entrenamiento</a
+            >
+          </li>
+          <li>
+            <a href="#catalogo3" class="nav-link px-2 text-white">Lifestyle</a>
+          </li>
+          <li>
+            <a href="#catalogo4" class="nav-link px-2 text-white"
+              >Edición Especial
+            </a>
+          </li>
+          <li>
+            <a href="#Testimonio" class="nav-link px-2 text-white"
+              >Testimonio
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <body>
+    <div
+      id="myCarousel"
+      class="carousel slide mb-6 pointer-event"
+      data-bs-ride="carousel"
+      style="max-height: 600px; overflow: hidden"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class=""
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="Cloud Strider.png"
+            class="d-block w-100"
+            style="height: 600px; object-fit: cover"
+            alt="Cloud Strider"
+          />
+          <div class="carousel-caption text-start">
+            <h1>Cloud Strider</h1>
+            <p class="h3 fw-bold">4,000 Lps</p>
+            <p class="opacity-75">
+              Corre como los campeones. Tecnología que impulsa tu siguiente
+              récord.
+            </p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="#catalogo3"
+                >Comprar ahora.</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="Monolith X.png"
+            class="d-block w-100"
+            style="height: 600px; object-fit: cover"
+            alt="Monolith X"
+          />
+          <div class="carousel-caption text-center">
+            <h1>Monolith X</h1>
+            <p class="h3 fw-bold">4,000 Lps</p>
+            <p>
+              Corre como los campeones. Tecnología que impulsa tu siguiente
+              récord.
+            </p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="#catalogo4"
+                >Comprar ahora.</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="Zephyr.png"
+            class="d-block w-100"
+            style="height: 600px; object-fit: cover"
+            alt="Velocity X-Z"
+          />
+          <div class="carousel-caption text-end">
+            <h1>Zephyr</h1>
+            <p class="h3 fw-bold">3,500 Lps</p>
+            <p>
+              Corre como los campeones. Tecnología que impulsa tu siguiente
+              récord.
+            </p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="#catalogo2"
+                >Comprar ahora.</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section id="catalogo1" class="container py-5">
+      <div class="category-group mb-5">
+        <div
+          class="d-flex justify-content-between align-items-end mb-4 border-bottom pb-2"
+        >
+          <div>
+            <h2 class="fw-bold mb-0">Running</h2>
+            <p class="text-muted mb-0">
+              Zapatillas ligeras para correr largas distancias
+            </p>
+          </div>
+          <span class="badge bg-secondary">12 modelos disponibles</span>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0 position-relative">
+              <span class="badge bg-danger position-absolute m-2 top-0 start-0"
+                >Nuevo</span
+              >
+
+              <div class="ratio ratio-1x1">
+                <img
+                  src="velocity elite.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Velocity Elite</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,000 Lps
+                </p>
+
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                >
+                  Añadir al Carrito
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="velocity-x-pro.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Velocity X-Pro</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,000 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="velocity-xz.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Velocity X-Z</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Iron Path.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Iron Path</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Nitro Pulse.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Nitro Pulse</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Titan Forge.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Titan Forge</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  4,000 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Quantum Strike.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Quantum Strike</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,600 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Nova Speed.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Nova Speed</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Aero Drift.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Aero Drift</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,800 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Velocity Apex.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Velocity Apex</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,800 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Zenith Flow.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Zenith Flow</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  1,350 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Sonic Glide.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Sonic Glide</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,200 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="catalogo2" class="container py-5">
+      <div class="category-group mb-5">
+        <div
+          class="d-flex justify-content-between align-items-end mb-4 border-bottom pb-2"
+        >
+          <div>
+            <h2 class="fw-bold mb-0">Entrenamiento</h2>
+            <p class="text-muted mb-0">
+              Diseñadas para gimnasio y sesiones mixtas
+            </p>
+          </div>
+          <span class="badge bg-secondary">10 modelos disponibles</span>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0 position-relative">
+              <span class="badge bg-danger position-absolute m-2 top-0 start-0"
+                >Nuevo</span
+              >
+
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Flux Core.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Flux Core</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,000 Lps
+                </p>
+
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                >
+                  Añadir al Carrito
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="OmniStrides.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Omnistrides</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,000 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Apex Hybrid.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Apex Hybrid</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Kinetic X.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Kinetic X</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="IronFlex.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Iron Flex</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Titan Cross.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Titan Cross</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  4,000 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Vault 360.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Vault 360</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,600 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Zephyr.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Zephyr</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Nexus.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Nexus</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,800 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Raw Pace.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zapatilla"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Raw Pace</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,800 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="catalogo3" class="container py-5">
+      <div class="category-group mb-5">
+        <div
+          class="d-flex justify-content-between align-items-end mb-4 border-bottom pb-2"
+        >
+          <div>
+            <h2 class="fw-bold mb-0">Lifestyle</h2>
+            <p class="text-muted mb-0">Estilo urbano con comodidad deportiva</p>
+          </div>
+          <span class="badge bg-secondary">12 modelos disponibles</span>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0 position-relative">
+              <span class="badge bg-danger position-absolute m-2 top-0 start-0"
+                >Nuevo</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Urbix Flow.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Urbix Flow"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Urbix Flow</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,000 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Metro Glide.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Metro Glide"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Metro Glide</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,000 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Street Pulse.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Street Pulse"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Street Pulse</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="City Stealth.png"
+                  class="card-img-top object-fit-cover"
+                  alt="City Stealth"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">City Stealth</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Air-Grid Neo.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Air-Grid Neo"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Air-Grid Neo</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Cloud Strider.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Cloud Strider"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Cloud Strider</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  4,000 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Kinetic Loft.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Kinetic Loft"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Kinetic Loft</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,600 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Zoom Verse.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Zoom Verse"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Zoom Verse</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Modus S.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Modus S"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Modus S</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,800 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Apex Urban.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Apex Urban"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Apex Urban</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,800 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Flux Zero.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Flux Zero"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Flux Zero</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,800 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Nomad Soul.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Nomad Soul"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Nomad Soul</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,800 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="catalogo4" class="container py-5">
+      <div class="category-group mb-5">
+        <div
+          class="d-flex justify-content-between align-items-end mb-4 border-bottom pb-2"
+        >
+          <div>
+            <h2 class="fw-bold mb-0">Edición Especial</h2>
+            <p class="text-muted mb-0">Modelos limitados y colaboraciones</p>
+          </div>
+          <span class="badge bg-secondary">10 modelos disponibles</span>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0 position-relative">
+              <span class="badge bg-danger position-absolute m-2 top-0 start-0"
+                >Nuevo</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Neon Pulse.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Neon Pulse"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Neon Pulse</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,000 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Cyber-Track 01.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Cyber-Track 01"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Cyber-Track 01</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,000 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Glitch Core.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Glitch Core"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Glitch Core</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Void Theory.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Void Theory"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Void Theory</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Stealth Shade.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Stealth Shade"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Stealth Shade</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Monolith X.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Monolith X"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Monolith X</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  4,000 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Urban Hybrid.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Urban Hybrid"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Urban Hybrid</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,600 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Gravity Zero.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Gravity Zero"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Gravity Zero</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,500 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Cobalt Fragment.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Cobalt Fragment"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Cobalt Fragment</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  3,800 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <span class="badge bg-warning text-dark position-absolute m-2"
+                >Más vendido</span
+              >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="Origins Limitless.png"
+                  class="card-img-top object-fit-cover"
+                  alt="Origins Limitless"
+                />
+              </div>
+              <div class="card-body d-flex flex-column text-center">
+                <h5 class="card-title fw-bold mb-1">Origins Limitless</h5>
+                <p class="card-text text-primary fs-5 fw-bold mb-3">
+                  2,800 Lps
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark mt-auto w-100 py-2 btn-hover-effect"
+                  >Añadir al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Testimonio"
+      class="py-5 position-relative d-flex align-items-center"
+      style="
+        min-height: 80vh;
+        background: url(&quot;PISTA.png&quot;) center/cover no-repeat;
+      "
+    >
+      <div
+        class="position-absolute top-0 start-0 w-100 h-100"
+        style="
+          background: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0.2) 100%
+          );
+        "
+      ></div>
+
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-lg-7">
+            <div
+              class="p-5 rounded-5"
+              style="
+                background: rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(15px);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+              "
+            >
+              <div class="d-flex align-items-center mb-4">
+                <img
+                  src="CAMILA.png"
+                  class="rounded-circle border border-3 border-primary me-3"
+                  style="width: 80px; height: 80px; object-fit: cover"
+                />
+                <div>
+                  <h3 class="text-white mb-0">Camila Torres</h3>
+                  <small class="text-primary fw-bold text-uppercase"
+                    >Campeona Olimpica</small
+                  >
+                </div>
+              </div>
+
+              <h4 class="text-white fst-italic fw-light mb-4">
+                “Desde que uso las Velocity X-Pro, siento que vuelo en cada
+                zancada. Comodidad, ligereza y potencia en un solo paso.”
+              </h4>
+
+              <div class="d-flex gap-3">
+                <button class="btn btn-primary px-4 py-2 fw-bold">
+                  “Descubre la Edición Especial Velocity X-Pro
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <h2 class="fw-bold mb-3">
+              Únete a los más de
+              <span class="text-primary">10,000</span> corredores que confían en
+              Velocity.
+            </h2>
+            <div class="d-flex gap-3 mb-4">
+              <a
+                href="#"
+                class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center shadow-sm"
+                style="width: 50px; height: 50px"
+              >
+                <i class="bi bi-instagram fs-4"></i>
+              </a>
+              <a
+                href="#"
+                class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center shadow-sm"
+                style="width: 50px; height: 50px"
+              >
+                <i class="bi bi-tiktok fs-4"></i>
+              </a>
+              <a
+                href="#"
+                class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center shadow-sm"
+                style="width: 50px; height: 50px"
+              >
+              <i class="bi bi-youtube fs-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div
+              class="bg-secondary bg-opacity-25 p-4 rounded-4 border border-secondary"
+            >
+              <h5 class="fw-bold">Lanzamientos exclusivos</h5>
+              <p class="text-secondary">
+                Recibe lanzamientos exclusivos y promociones de primera línea..
+              </p>
+              <form class="d-flex flex-column flex-sm-row gap-2">
+                <input
+                  type="email"
+                  class="form-control form-control-lg bg-dark text-white border-secondary"
+                  placeholder="Tu email..."
+                  required
+                />
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-lg px-4 text-uppercase fw-bold"
+                >
+                  Unirme
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#catalogo1" class="nav-link px-2 text-body-secondary">Running</a>
+        </li>
+        <li class="nav-item">
+          <a href="#catalogo2" class="nav-link px-2 text-body-secondary">Entrenamiento</a>
+        </li>
+        <li class="nav-item">
+          <a href="#catalogo3" class="nav-link px-2 text-body-secondary">Lifestyle</a>
+        </li>
+        <li class="nav-item">
+          <a href="#catalogo4" class="nav-link px-2 text-body-secondary">Edicion Especial</a>
+        </li> 
+        <li class="nav-item">
+          <a href="#Testimonio" class="nav-link px-2 text-body-secondary">Testimonio</a>
+        </li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2026 Company, Inc</p>
+    </footer>
+  </body>
+</html>
